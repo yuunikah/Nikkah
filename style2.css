@@ -131,6 +131,8 @@ h6 span {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 .captdesc p {
@@ -148,6 +150,8 @@ h6 span {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 .creators .hatta,
@@ -157,6 +161,8 @@ h6 span {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 .creators .hatta img,
@@ -261,7 +267,8 @@ a {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
-  
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 .location:hover {
@@ -307,6 +314,8 @@ a {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 .Wrapper {
@@ -395,6 +404,9 @@ a {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
+
 }
 
 .stories p .judul {
@@ -426,6 +438,9 @@ a {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+  transform: scale(0.8);
+  opacity: 0;
+
 }
 
 .rsvp .Isiform {
@@ -475,6 +490,8 @@ a {
   text-shadow: 0 3px 10px #fcee6e;
   animation: typewriter 3s steps(20) forwards;
   animation-timeline: view();
+  transform: scale(0.8);
+  opacity: 0;
 }
 
 @keyframes typewriter {
