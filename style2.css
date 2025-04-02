@@ -62,9 +62,9 @@ h6 {
 .hero .descblog {
   font-size: 1rem;
   font-weight: 300;
-  margin-top: -14px;
+  margin-top: -10px;
   margin-bottom: -2px;
-  margin-left: 5px;
+  margin-left: 15px;
   text-shadow: 0 2px 5px #111;
 }
 
@@ -74,7 +74,7 @@ h6 {
   width: 120px;
   background-color: red;
   font-size: 0.86rem;
-  /* margin-left: 5px; */
+  margin-left: 15px;
   border-radius: 30px;
 }
 
