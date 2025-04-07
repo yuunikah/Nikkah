@@ -153,6 +153,13 @@ h6 span {
   transform: scale(0.8);
 }
 
+.creators {
+  animation: zoom-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  transform: scale(0.8);
+}
+
 .creators .hatta,
 .uny {
   display: flex;
@@ -160,7 +167,6 @@ h6 span {
   animation: zoom-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
-  transform: scale(0.8);
 }
 
 .creators .hatta img,
@@ -169,6 +175,7 @@ h6 span {
   width: 70px;
   height: 70px;
 }
+
 .creators .hatta .tulisan,
 .uny .tulisan {
   position: relative;
@@ -253,6 +260,21 @@ a {
 }
 
 .location {
+  padding-top: 12px;
+  box-sizing: border-box;
+  animation: zoom-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  transform: scale(0.8);
+}
+
+.location #harus h3 span, .creators h3 span {
+font-style: italic;
+font-size: 0.6rem;
+font-weight: 300;
+}
+
+.location .boxloc{
   width: 380px;
   height: 150px;
   background-color: #3b3838;
@@ -263,20 +285,16 @@ a {
   padding-left: 3px;
   border-radius: 10px;
   box-shadow: 0 3px 10px #111;
-  animation: zoom-in linear forwards;
-  animation-timeline: view();
-  animation-range: entry;
-  transform: scale(0.8);
 }
 
-.location:hover {
+.location .boxloc:hover {
   transform: scale(1.06);
 }
-.location h3 {
+.location .boxloc h3 {
   font-size: 0.75rem;
   font-weight: 400;
 }
-.location h3 span {
+.location .boxloc h3 span {
   font-size: 0.75rem;
   font-weight: 650;
 }
